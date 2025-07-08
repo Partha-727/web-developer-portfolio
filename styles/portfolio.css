@@ -123,3 +123,47 @@ main section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin: auto 230px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.exprience-description, .experience-sub-title{
+    color: #757575;
+
+}
+.resume-container hr{
+    margin: 10px 5px;
+}
+.cv-download-button{
+    margin-top: 50px;
+}
+.resume-section-title{
+    margin: 130px 573px 113px;
+}
+/* footer styles */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 120px;
+}
+.footer-column{
+    width: 50%;
+}
+footer textarea, footer input[type="text"], footer input[type="email"]{
+    padding: 18px 350px 18px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 64px;
+    display: block;
+    background-color: #FFFFFF;
+    width: 50%;
+}
+
